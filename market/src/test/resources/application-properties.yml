@@ -1,0 +1,8 @@
+#Spring Boot
+spring:
+  datasource:
+    own:
+      username: ${CONTAINER.USERNAME}
+      password: ${CONTAINER.PASSWORD}
+      url: ${CONTAINER.URL}
+    driver-class-name=org.postgresql.Driver:
